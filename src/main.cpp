@@ -19,7 +19,7 @@ int main() {
             result = calc.add(num1, num2);
             break;
         case '-':
-            result = calc.subtract(num1, num2);
+            result = calc.add(num1, num2);
             break;
         case '*':
             result = calc.multiply(num1, num2);
